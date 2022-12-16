@@ -18,6 +18,8 @@ public class BaseVctc
 		System.setProperty("webdriver.chrome.driver","E:\\Sultan\\software testing notes\\Apps\\Selenium\\chromedriver.exe");
 		driver=new ChromeDriver();
 		
+		
+		
 		driver.get(UtilityVctc.readDataFromPropertyFile("url"));
 		driver.manage().window().maximize();
 		Reporter.log("Lauching browser", true);
