@@ -16,6 +16,7 @@ public class BaseVctc
 	public void launchBrowser() throws InterruptedException, IOException
 	{
 		System.setProperty("webdriver.chrome.driver","E:\\Sultan\\software testing notes\\Apps\\Selenium\\chromedriver.exe");
+		
 		driver=new ChromeDriver();
 		
 		
